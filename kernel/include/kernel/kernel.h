@@ -1,0 +1,24 @@
+#pragma once
+
+#include <stddef.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdio.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include "../sys/ports.h"
+#include "../sys/gdt.h"
+#include "../sys/idt.h"
+#include "../sys/isr.h"
+#include "../sys/pic.h"
+#include "panic.h"
+#include "../sys/kheap.h"
+#include "../sys/paging.h"
+#include "../sys/vga.h"
+#include "../sys/textmode_cursor.h"
+#include "../drv/tty.h"
+#include "../drv/ps2.h"
+#include "../drv/ps2_keyboard.h"
+#include "../drv/keyboard_buffer.h"
